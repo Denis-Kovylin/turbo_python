@@ -91,6 +91,13 @@ git checkout -b name — создать и перейти в ветку
 git add file — добавить файл  
 git add . — добавить всё  
 git commit -m "msg" — создать коммит  
+## Работа с удалённым репозиторием
+git remote add origin <url> — добавить удалённый репозиторий (связать локальный проект с GitHub)
+git remote -v — посмотреть список подключённых удалённых репозиториев (origin = основной)
+git remote set-url origin <url> — изменить ссылку на удалённый репозиторий (например, SSH → HTTPS)
+git push -u origin <branch> — отправить ветку в удалённый репозиторий И связать её с origin
+(после этого можно просто писать git push / git pull)
+
 
 ---
 
