@@ -21,7 +21,7 @@ for num in num_list:
     print(num)
 print(gap*3)
 
-'''Создать список "кубов" от 1 до 10. Вывести их циклом FOR'''
+'''Создать список ( генераторный ) "кубов" от 1 до 10. Вывести их циклом FOR'''
 cube_list = [num**3 for num in range(1, 11)]
 for item in cube_list:
     print(item)
