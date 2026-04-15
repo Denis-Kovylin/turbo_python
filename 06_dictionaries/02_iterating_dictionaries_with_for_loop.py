@@ -22,7 +22,7 @@ print(gap*3)
 river_message = ' is the largest river in '
 river_dict = {
     'ukraine': 'dnipro',
-    'hina': 'yangtze',
+    'china': 'yangtze',
     'usa': 'mississippi'
 }
 
