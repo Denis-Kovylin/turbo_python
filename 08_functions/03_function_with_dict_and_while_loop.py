@@ -3,6 +3,7 @@
 Вызвать 3 раза и вывести результат.
 '''
 # def city_country(city, country):
+#     '''Возвращает строку формата "Страна, Город".'''
 #     location = f'{country.title()}, {city.title()}'
 #     return location
 # print(city_country('tokio', 'japan'))
@@ -14,6 +15,7 @@
 Потом добавить необязательный параметр — количество песен (None по умолчанию). 
 Если передано — добавить в словарь. Вызвать 3 раза.'''
 # def make_album(artist, album, qtt=None):
+#     '''Возвращает словарь с данными об альбоме; количество треков опционально.'''
 #     music = {}
 #     if qtt:
 #         music = {'artist': artist.title(), 'album': album.title(), 'traks': qtt}
@@ -29,6 +31,7 @@
 выводишь результат. quit — выход.
 '''
 # def make_album(artist, album, qtt=None):
+#     '''Возвращает словарь с данными об альбоме; количество треков опционально.'''
 #     if qtt:
 #         music = {'artist': artist, 'album': album, 'qtt': qtt}
 #     else:

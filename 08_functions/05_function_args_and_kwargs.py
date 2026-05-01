@@ -2,6 +2,7 @@
 Функция принимает произвольное количество аргументов (*args) — ингредиенты. Выводит описание сэндвича.
 Вызвать 3 раза с разным количеством ингредиентов.'''
 def make_sandwich(*toppings):
+    '''Выводит описание сэндвича с переданными ингредиентами.'''
     print(f'\nWe made for you sandwich with:')
     for topping in toppings:
         print(f'\t{topping}')
@@ -13,6 +14,7 @@ make_sandwich('cece', 'dewdewwed', 99, 'dewdewdew')
 Функция build_profile() принимает имя, фамилию и произвольные ключевые аргументы (**kwargs). 
 Возвращает словарь. Вызвать со своими данными + 3 доп. характеристики.'''
 def build_profile(f_name, l_name, **propertys):
+    '''Возвращает словарь с профилем пользователя, включая дополнительные характеристики.'''
     user_dict = {}
     user_dict['first_name'] = f_name
     user_dict['second_name'] = l_name
@@ -25,6 +27,7 @@ print(f'\n{build_profile('jon', 'dou', country='usa', city='dallas')}')
 '''8-14. Автомобили
 Функция make_car() принимает марку, модель и произвольные ключевые аргументы. Возвращает словарь.'''
 def make_car(brand, model, **propertys):
+    '''Возвращает словарь с данными об автомобиле, включая дополнительные характеристики.'''
     car = {}
     car['brand'] = brand
     car['model'] = model

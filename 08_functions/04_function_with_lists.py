@@ -2,6 +2,7 @@
 Передать список сообщений в функцию show_messages() — она просто выводит каждое.'''
 # messages = ['hey what up', 'yo its a me mario', 'python is cool', 'send help']
 # def show_messages(mess_list):
+#     '''Выводит все сообщения из переданного списка.'''
 #     for mess in mess_list:
 #         print(mess)
 # show_messages(messages)
@@ -12,6 +13,7 @@
 # messages = ['hey what up', 'yo its a me mario', 'python is cool', 'send help']
 # sent_messages = []
 # def send_messages(mess_list,snt_mess_list):
+#     '''Выводит сообщения и перемещает их из очереди в список отправленных.'''
 #     while mess_list:
 #         current_mess = mess_list.pop()
 #         print(f'Sending message: {current_mess}')
@@ -29,6 +31,7 @@
 # messages = ['hey what up', 'yo its a me mario', 'python is cool', 'send help']
 # sent_messages = []
 # def archive_messages(mess_list, origin_list, snt_list):
+#     '''Отправляет копию сообщений, не изменяя оригинальный список.'''
 #     while mess_list:
 #         current_mess = mess_list.pop()
 #         print(f'Sending message: {current_mess}')
