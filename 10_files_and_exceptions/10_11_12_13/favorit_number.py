@@ -51,7 +51,6 @@ def user_check():
     else:
         with open(file_name) as f:
             print(name)
-        print(mess_confirm)
         user_answer = input(mess_confirm)
         if user_answer == 'no':
             user_name = input(mess_new_user)
