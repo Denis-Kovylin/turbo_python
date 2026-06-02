@@ -134,6 +134,11 @@ git push — отправить изменения (после связки)
 git pull — получить изменения с GitHub  
 git clone <url> — клонировать репозиторий  
 
+## SSH для GitHub
+ssh-keygen -t ed25519 -C "email" — сгенерировать ключ
+cat ~/.ssh/id_ed25519.pub — показать публичный ключ (копируешь на GitHub)
+git remote set-url origin git@github.com:USERNAME/REPO.git — переключить на SSH
+
 ---
 
 ## Частые ошибки
