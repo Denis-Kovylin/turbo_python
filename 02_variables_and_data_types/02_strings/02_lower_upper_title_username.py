@@ -1,4 +1,4 @@
-username = 'AdOlf HiTLer'
+username = "AdOlf HiTLer"
 
 print(username.lower())
 print(username.upper())

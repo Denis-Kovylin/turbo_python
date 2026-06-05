@@ -1,6 +1,6 @@
-message = 'Hello World!'
+message = "Hello World!"
 print(message)
-message = 'Hello Python:))'
+message = "Hello Python:))"
 print(message)
 
 # Переменная - "ящик" для данных. Или "этикетка" на "ящике" с данными

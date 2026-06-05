@@ -1,5 +1,7 @@
-'''Спрашивать у пользователя ингридиенты для пиццы, пока он не введет "quit". Каждый раз, после
-добавления ингридиента, выводить этот ингридиент ( в конце попробывать вывести все ингридиенты )'''
+"""Спрашивать у пользователя ингридиенты для пиццы, пока он не введет "quit". Каждый раз, после
+добавления ингридиента, выводить этот ингридиент ( в конце попробывать вывести все ингридиенты )
+"""
+
 # pizza_quest = '\n( Enter "quit" when you are finished )'
 # pizza_quest += '\nWhat would you like to add to your pizza?: '
 # confirm_ingred = ' - has been added to your pizza'
@@ -17,8 +19,8 @@
 # for topping in pizza_toppings:
 #     print(f'\t{topping}')
 
-'''Билеты в кино стоят: до 3х лет - бесплатно, от 3х до 12 - 10у.е, от - 15у.е.
-Нужно спросить у юзера возраст, а потом вывести стоимость билета для него. "quit" - выход'''
+"""Билеты в кино стоят: до 3х лет - бесплатно, от 3х до 12 - 10у.е, от - 15у.е.
+Нужно спросить у юзера возраст, а потом вывести стоимость билета для него. "quit" - выход"""
 # ticket_mess = 'A movie ticket for your age group costs - '
 # age_quest = '\nPlease enter your age to see ticket prices: '
 # user_age = input(age_quest)
@@ -30,7 +32,7 @@
 # else:
 #     print(f'{ticket_mess}15$')
 
-'''На предыдущее задание прикрутить цикл While, break, continue, active, "quit" - выход'''
+"""На предыдущее задание прикрутить цикл While, break, continue, active, "quit" - выход"""
 # ticket_mess = 'A movie ticket for your age group costs - '
 # age_quest = '\nPlease enter your age to see ticket prices: '
 # active = True
@@ -60,6 +62,3 @@
 #         else:
 #             print('error')
 #             continue
-
-
-

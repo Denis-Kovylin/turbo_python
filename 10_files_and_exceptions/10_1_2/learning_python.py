@@ -1,5 +1,6 @@
-'''Создай файл learning_python.txt в той же папке где будет твой .py файл. Напиши туда несколько строк.
-Потом в коде прочитай этот файл тремя способами:'''
+"""Создай файл learning_python.txt в той же папке где будет твой .py файл. Напиши туда несколько строк.
+Потом в коде прочитай этот файл тремя способами:"""
+
 # with open('learning_python.txt') as file_object:
 #     print(file_object.read())
 
@@ -12,8 +13,8 @@
 # for line in content:
 #     print(line)
 
-'''Берёшь тот же файл, читаешь строки и заменяешь слово Python на C через .replace('Python', 'C').
- Выводишь изменённые строки.'''
+"""Берёшь тот же файл, читаешь строки и заменяешь слово Python на C через .replace('Python', 'C').
+ Выводишь изменённые строки."""
 # with open('learning_python.txt') as file_object:
 #     list_of_strings = file_object.readlines()
 #
@@ -23,4 +24,3 @@
 #
 # for string in edited_strings_list:
 #     print(string.strip())
-

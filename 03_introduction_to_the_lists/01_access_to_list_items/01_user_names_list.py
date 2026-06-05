@@ -1,6 +1,13 @@
 # Создан список имен юзеров. Обращаясь по идексу будут выведены все имена списка по очереди
 
-usernames = ['Adolf Hitler','Hermann Göring','Joseph Goebbels','Rudolf Hess','Heinrich Himmler','Wilhelm Keitel']
+usernames = [
+    "Adolf Hitler",
+    "Hermann Göring",
+    "Joseph Goebbels",
+    "Rudolf Hess",
+    "Heinrich Himmler",
+    "Wilhelm Keitel",
+]
 
 print(len(usernames))
 
